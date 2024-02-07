@@ -64,7 +64,7 @@ public class Usuario {
     public void agregarAccesorio(Accesorio nuevoAccesorio) {
         boolean lleno = true;
         for (int i = 0; i < accesorio.length; i++) {
-            if (accesorio[i] == null) { // Encuentra el primer espacio disponible
+            if (accesorio[i] == null) {
                 accesorio[i] = nuevoAccesorio;
                 System.out.println("Se agregó el accesorio '" + nuevoAccesorio.getNombre());
                 lleno = true;
@@ -81,15 +81,16 @@ public class Usuario {
     }
 
     public void verObjetosEquipados() {
+        System.out.println("--------- Arma principal ----------");
         if (armaPrincipal != null) {
-            System.out.println("--------- Arma principal ----------");
+
             System.out.println("Nombre: " + armaPrincipal.getNombre() + " Tipo: " + armaPrincipal.getTipo());
         } else {
             System.out.println("Todavía no tienes un arma principal");
         }
 
+        System.out.println("--------- Arma secundaria ----------");
         if (armaSecundaria != null) {
-            System.out.println("--------- Arma secundaria ----------");
             System.out.println("Nombre: " + armaSecundaria.getNombre() + " Calibre: " + armaSecundaria.getCalibre());
         } else {
             System.out.println("Todavía no tienes un arma secundaria");

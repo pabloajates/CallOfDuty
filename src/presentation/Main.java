@@ -10,17 +10,16 @@ public class Main {
         Usuario user = new Usuario("Pedro", 8);
 
     inventario.agregarArmaPrincipal();
-
-    inventario.agregarArmaSecun();
-
-    inventario.agregarAccesorio();
-    inventario.agregarAccesorio();
-    inventario.agregarAccesorio();
-    inventario.agregarAccesorio();
+    inventario.agregarArmaPrincipal();
+    
 
     inventario.mostrarInventario();
 
     inventario.equipar(user);
+
+    user.verObjetosEquipados();
+
+    inventario.desEquipar(user);
 
     user.verObjetosEquipados();
 

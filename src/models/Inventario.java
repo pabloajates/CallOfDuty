@@ -54,27 +54,8 @@ public class Inventario {
                 break;
             }
         }
-
         if (!agregado) {
             System.out.println("Ya tengo lleno el inventario de armas principales");
-        }
-    }
-
-    public void eliminarArmaPrincipal() {
-        System.out.println("Dame el nombre del arma a eliminar");
-        String nombre = sc.next();
-        boolean encontrado = false;
-
-        for (int i = 0; i < armaPrincipal.length; i++) {
-            if (armaPrincipal[i].getNombre().equals(nombre)) {
-                armaPrincipal[i] = null;
-                encontrado = true;
-                break;
-            }
-        }
-
-        if (!encontrado) {
-            System.out.println("Esa arma principal no la tengo");
         }
     }
 
@@ -238,7 +219,7 @@ public class Inventario {
                             if (accesorio[i] != null && accesorio[i].getNombre().equals(nombreAccesorio)) {
                                 usuario.agregarAccesorio(accesorio[i]);
                                 accesorioEncontrado = true;
-                                break; // Salir del bucle una vez que se encuentre y agregue el accesorio
+                                break;
                             }
                         }
                         if (!accesorioEncontrado) {
@@ -252,6 +233,55 @@ public class Inventario {
         }
         System.out.println("Agregamos otro arma/accesorio  s/n");
         otra = sc.next().charAt(0);
+        } while (otra != 'n');
+    }
+
+    public void desEquipar(Usuario usuario) {
+
+        char otra = ' ';
+        do {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Que quieres desequiparte \n" +
+                    "1. Arma principal \n" +
+                    "2. Arma secundaria \n" +
+                    "3. Accesorios");
+            int opcion = sc.nextInt();
+            switch (opcion) {
+                case 1:
+                    if(usuario.getArmaPrincipal() != null) {
+                        usuario.setArmaPrincipal(null);
+                        System.out.println("Arma principal desequipada con exito");
+                    } else {
+                        System.out.println("No puedo quitarte ese arma porque no tienes niguna equipada");
+                    }
+                    break;
+                case 2:
+                    if(usuario.getArmaSecundaria() != null) {
+                        usuario.setArmaSecundaria(null);
+                        System.out.println("Dame el nombre del accesorio que desequipar: ");
+                    } else {
+                        System.out.println("No puedo quitarte ese arma porque no tienes niguna equipada");
+                    }
+
+                    break;
+                case 3:
+                        System.out.println("Dame el nombre del accesorio que desequipar: ");
+                        String nombreAccesorio = sc.next();
+                        boolean accesorioEncontrado = false;
+                        for (int i = 0; i < accesorio.length; i++) {
+                            if (accesorio[i] != null && accesorio[i].getNombre().equals(nombreAccesorio)) {
+                                usuario.agregarAccesorio(null);
+                                accesorioEncontrado = true;
+                                break;
+                            }
+                        }
+                        if (!accesorioEncontrado) {
+                            System.out.println("El accesorio especificado no se encuentra equipado");
+                        }
+                break;
+            }
+            System.out.println("Quieres desequipar otro arma/accesorio  s/n");
+            otra = sc.next().charAt(0);
         } while (otra != 'n');
     }
 }
