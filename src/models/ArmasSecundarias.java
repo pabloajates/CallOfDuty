@@ -2,18 +2,18 @@ package models;
 
 public class ArmasSecundarias extends Armas{
 
-    private String color;
+    private String calibre;
 
-    public ArmasSecundarias(int espacioMochila, String color) {
+    public ArmasSecundarias(int espacioMochila, String calibre) {
         super(espacioMochila);
-        this.color = color;
+        this.calibre = calibre;
     }
 
-    public String getColor() {
-        return color;
+    public String getCalibre() {
+        return calibre;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setCalibre(String calibre) {
+        this.calibre = calibre;
     }
 }
