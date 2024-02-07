@@ -1,14 +1,17 @@
 package models;
 
-public class ArmasSecundarias extends Armas{
+public class ArmaSecundaria extends Arma {
 
     private String nombre;
     private String calibre;
 
-    public ArmasSecundarias(int espacioMochila, String calibre, String nombre) {
+    public ArmaSecundaria(int espacioMochila, String calibre, String nombre) {
         super(espacioMochila);
         this.calibre = calibre;
         this.nombre = nombre;
+    }
+    public ArmaSecundaria() {
+
     }
 
     public String getCalibre() {

@@ -1,6 +1,6 @@
 package models;
 
-public class ArmaPrincipal extends Armas{
+public class ArmaPrincipal extends Arma {
 
     private String nombre;
     private String tipo;
@@ -9,6 +9,10 @@ public class ArmaPrincipal extends Armas{
         super(espacioMochila);
         this.tipo = tipo;
         this.nombre = nombre;
+    }
+
+    public ArmaPrincipal() {
+
     }
 
     public String getTipo() {

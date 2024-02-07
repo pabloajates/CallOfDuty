@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d762101-d0bc-4c0f-bd16-9c2a8bf3ab5c" name="Changes" comment="Creadas clases de armas">
-      <change afterPath="$PROJECT_DIR$/src/models/Accesorios.java" afterDir="false" />
+    <list default="true" id="5d762101-d0bc-4c0f-bd16-9c2a8bf3ab5c" name="Changes" comment="Creadas clase accesorios y cambios en armas">
+      <change afterPath="$PROJECT_DIR$/src/models/Inventario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Accesorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Accesorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/ArmaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ArmaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ArmasSecundarias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ArmasSecundarias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Armas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Arma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ArmasSecundarias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ArmaSecundaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -88,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707320727514</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creadas clase accesorios y cambios en armas">
+      <option name="closed" value="true" />
+      <created>1707321150737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707321150738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empezando" />
     <MESSAGE value="Creadas clases de armas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creadas clases de armas" />
+    <MESSAGE value="Creadas clase accesorios y cambios en armas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creadas clase accesorios y cambios en armas" />
   </component>
 </project>

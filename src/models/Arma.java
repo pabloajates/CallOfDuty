@@ -1,12 +1,16 @@
 package models;
 
-public class Armas {
+public class Arma {
 
     private int espacioMochila;
 
-    public Armas(int espacioMochila) {
+    public Arma(int espacioMochila) {
         this.espacioMochila = espacioMochila;
     }
+    public Arma() {
+
+    }
+
 
     public int getEspacioMochila() {
         return espacioMochila;
