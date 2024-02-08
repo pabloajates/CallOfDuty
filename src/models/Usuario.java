@@ -83,7 +83,7 @@ public class Usuario {
         boolean accesorioEncontrado = false;
         for (int i = 0; i < accesorio.length; i++) {
             if (accesorio[i] != null && accesorio[i].getNombre().equals(nombreAccesorio)) {
-                accesorio[i] = null; // Desasigna el accesorio
+                accesorio[i] = null;
                 accesorioEncontrado = true;
                 break;
             }
