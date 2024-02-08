@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d762101-d0bc-4c0f-bd16-9c2a8bf3ab5c" name="Changes" comment="Creadas clase accesorios y cambios en armas">
+    <list default="true" id="5d762101-d0bc-4c0f-bd16-9c2a8bf3ab5c" name="Changes" comment="Casi acabado, falta mirar un par de errores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Inventario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Main.java" afterDir="false" />
@@ -97,13 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1707321150738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Casi acabado, falta mirar un par de errores">
+      <option name="closed" value="true" />
+      <created>1707418670648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707418670648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empezando" />
     <MESSAGE value="Creadas clases de armas" />
     <MESSAGE value="Creadas clase accesorios y cambios en armas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creadas clase accesorios y cambios en armas" />
+    <MESSAGE value="Casi acabado, falta mirar un par de errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Casi acabado, falta mirar un par de errores" />
   </component>
 </project>

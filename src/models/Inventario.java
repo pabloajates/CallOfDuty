@@ -61,7 +61,7 @@ public class Inventario {
     }
     public void eliminarArmaPrincipal() {
         System.out.println("Dame el nombre del arma a eliminar");
-        String nombre = sc.nextLine();
+        String nombre = sc.next();
         boolean encontrado = false;
 
         for (int i = 0; i < armaPrincipal.length; i++) {
