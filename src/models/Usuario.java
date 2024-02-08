@@ -79,6 +79,19 @@ public class Usuario {
 
 
     }
+    public void desequiparAccesorio(String nombreAccesorio) {
+        boolean accesorioEncontrado = false;
+        for (int i = 0; i < accesorio.length; i++) {
+            if (accesorio[i] != null && accesorio[i].getNombre().equals(nombreAccesorio)) {
+                accesorio[i] = null; // Desasigna el accesorio
+                accesorioEncontrado = true;
+                break;
+            }
+        }
+        if (!accesorioEncontrado) {
+            System.out.println("El accesorio especificado no se encuentra equipado");
+        }
+    }
 
     public void verObjetosEquipados() {
         System.out.println("--------- Arma principal ----------");

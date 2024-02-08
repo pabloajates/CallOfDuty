@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d762101-d0bc-4c0f-bd16-9c2a8bf3ab5c" name="Changes" comment="Creadas clase accesorios y cambios en armas">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Inventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
